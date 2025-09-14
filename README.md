@@ -10,3 +10,6 @@ churnxgb : Customer Churn Predictions # BQML # XGBoost Classifier
 - Generate batch predictions with your BQML XGBoost model.
 - Export BQML XGBoost model to Google Cloud Storage bucket.
 - Upload & deploy a BQML XGBoost model to Vertex AI Prediction Endpoint for online predictions.
+
+## Deploy BigQuery ML Customer Churn Classifier to Vertex AI for Online Predictions 
+
