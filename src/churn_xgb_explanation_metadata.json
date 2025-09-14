@@ -1,0 +1,28 @@
+{
+	"framework" : "custom_container",
+	"inputs" : 
+	{
+		"cnt_ad_reward" : {},
+		"cnt_challenge_a_friend" : {},
+		"cnt_completed_5_levels" : {},
+		"cnt_level_complete_quickplay" : {},
+		"cnt_level_end_quickplay" : {},
+		"cnt_level_reset_quickplay" : {},
+		"cnt_level_start_quickplay" : {},
+		"cnt_post_score" : {},
+		"cnt_spend_virtual_currency" : {},
+		"cnt_use_extra_steps" : {},
+		"cnt_user_engagement" : {},
+		"country" : {},
+		"dayofweek" : {},
+		"julianday" : {},
+		"language" : {},
+		"month" : {},
+		"operating_system" : {},
+		"user_first_engagement" : {}
+	},
+	"outputs" : 
+	{
+		"churned_probs" : {}
+	}
+}

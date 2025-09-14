@@ -1,0 +1,150 @@
+{
+	"class_names" : 
+	[
+		"1",
+		"0"
+	],
+	"feature_names" : 
+	[
+		"country",
+		"operating_system",
+		"language",
+		"cnt_user_engagement",
+		"cnt_level_start_quickplay",
+		"cnt_level_end_quickplay",
+		"cnt_level_complete_quickplay",
+		"cnt_level_reset_quickplay",
+		"cnt_post_score",
+		"cnt_spend_virtual_currency",
+		"cnt_ad_reward",
+		"cnt_challenge_a_friend",
+		"cnt_completed_5_levels",
+		"cnt_use_extra_steps",
+		"user_first_engagement",
+		"month",
+		"julianday",
+		"dayofweek"
+	],
+	"features" : 
+	{
+		"cnt_ad_reward" : 
+		{
+			"max" : 29,
+			"mean" : 0.05919198246163503,
+			"min" : 0,
+			"stddev" : 0.6755171957071747
+		},
+		"cnt_challenge_a_friend" : 
+		{
+			"max" : 9,
+			"mean" : 0.01894769808957092,
+			"min" : 0,
+			"stddev" : 0.2511390896889576
+		},
+		"cnt_completed_5_levels" : 
+		{
+			"max" : 4,
+			"mean" : 0.1331036642655808,
+			"min" : 0,
+			"stddev" : 0.3633270702337555
+		},
+		"cnt_level_complete_quickplay" : 
+		{
+			"max" : 595,
+			"mean" : 2.093642342624483,
+			"min" : 0,
+			"stddev" : 10.23368309435384
+		},
+		"cnt_level_end_quickplay" : 
+		{
+			"max" : 655,
+			"mean" : 4.938459129345429,
+			"min" : 0,
+			"stddev" : 16.75918530247797
+		},
+		"cnt_level_reset_quickplay" : 
+		{
+			"max" : 751,
+			"mean" : 1.941121202630753,
+			"min" : 0,
+			"stddev" : 16.48064221998386
+		},
+		"cnt_level_start_quickplay" : 
+		{
+			"max" : 832,
+			"mean" : 7.765580958346376,
+			"min" : 0,
+			"stddev" : 26.60264785866907
+		},
+		"cnt_post_score" : 
+		{
+			"max" : 595,
+			"mean" : 4.872846852489819,
+			"min" : 0,
+			"stddev" : 14.40161584754427
+		},
+		"cnt_spend_virtual_currency" : 
+		{
+			"max" : 52,
+			"mean" : 0.4470717193861554,
+			"min" : 0,
+			"stddev" : 1.877727105413474
+		},
+		"cnt_use_extra_steps" : 
+		{
+			"max" : 52,
+			"mean" : 0.4016598809896638,
+			"min" : 0,
+			"stddev" : 1.757353602567669
+		},
+		"cnt_user_engagement" : 
+		{
+			"max" : 928,
+			"mean" : 30.53820858127153,
+			"min" : 1,
+			"stddev" : 52.46833131752975
+		},
+		"country" : 
+		{
+			"encode_type" : "ohe"
+		},
+		"dayofweek" : 
+		{
+			"max" : 7,
+			"mean" : 3.930629502035704,
+			"min" : 1,
+			"stddev" : 1.958867110200961
+		},
+		"julianday" : 
+		{
+			"max" : 277,
+			"mean" : 204.6503288443467,
+			"min" : 163,
+			"stddev" : 34.6747550095753
+		},
+		"language" : 
+		{
+			"encode_type" : "ohe"
+		},
+		"month" : 
+		{
+			"max" : 10,
+			"mean" : 7.225649859066723,
+			"min" : 6,
+			"stddev" : 1.193813244661816
+		},
+		"operating_system" : 
+		{
+			"encode_type" : "ohe"
+		},
+		"user_first_engagement" : 
+		{
+			"max" : 1538619657297002,
+			"mean" : 1532404734786504,
+			"min" : 1528786810908005,
+			"stddev" : 2995785407971.051
+		}
+	},
+	"label_col" : "churned",
+	"model_type" : "boosted_tree_classifier"
+}
